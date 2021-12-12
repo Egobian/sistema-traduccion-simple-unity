@@ -39,8 +39,6 @@ public class ControladorIdioma : MonoBehaviour
 
     private void Start()
     {
-        IdiomasDisponibles = DameListaIdiomas();
-
         idiomaGuardado = PlayerPrefs.GetString("idioma", "");
 
         if (idiomaGuardado != string.Empty)
@@ -76,19 +74,6 @@ public class ControladorIdioma : MonoBehaviour
     }
 
 
-    private List<FicheroIdioma> DameListaIdiomas()
-    {
-        List<FicheroIdioma> idiomas = new List<FicheroIdioma>();
-        string[] arrayIdiomas = AssetDatabase.FindAssets("t:" + typeof(FicheroIdioma).Name);
-
-        foreach (string elemento in arrayIdiomas)
-        {
-            string ruta = AssetDatabase.GUIDToAssetPath(elemento);
-            idiomas.Add(AssetDatabase.LoadAssetAtPath<FicheroIdioma>(ruta));
-        }
-
-        return idiomas;
-    }
 
 
     private void Traducir(FicheroIdioma idioma)
