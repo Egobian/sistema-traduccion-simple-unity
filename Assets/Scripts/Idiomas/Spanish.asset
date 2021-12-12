@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4746639504422c541ba00fdfaee96a4b, type: 3}
+  m_Name: Spanish
+  m_EditorClassIdentifier: 
+  textoSiguienteEscena: Escena ejemplo
+  textoOpciones: Opciones
+  textoSalir: Salir
+  parrafo1: "<color=#fffed9>\xA1Gracias por descargar el proyecto!</color>"
+  parrafo2: "<color=#fffed9>Puedes conocer mas sobre m\xED en:</color>"
+  parrafo3: <color=#b6fcc6>https://egobian.com</color>
+  parrafo4: <color=#b6fcc6>https://www.linkedin.com/in/eduardo-gomez-blanco/</color>
+  textoVolver: Volver
+  textoIdiomaES: "Espa\xF1ol"
+  textoIdiomaFR: "Franc\xE9s"
+  textoIdiomaEN: "Ingl\xE9s"
+  textoGuardar: Guardar
+  textoResetearOpciones: Resetear opciones
