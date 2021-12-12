@@ -10,8 +10,6 @@ Proyecto para traducir los elementos de la escena a través de Scriptable Object
 
 
 
-[TOC]
-
 
 
 ## 📄Requisitos previos
